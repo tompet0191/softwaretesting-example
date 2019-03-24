@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,28 +9,31 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <title>Testing software - example</title>
 </head>
+
 <body>
     <div class="inputFields">
-        <label for="digit1">Enter first digit</label>
-        <input type="text" name="digit1" id="digit1" size=2/>
-    
-        <label for="digit2">Enter second digit</label>
-        <input type="text" name="digit2" id="digit2" size=2/>
+        <div class="inputDigit">
+            <label for="digit1">Enter first digit</label>
+            <input type="text" name="digit1" id="digit1" size=2 />
+        </div>
+        <div class="inputDigit">
+            <label for="digit2">Enter second digit</label>
+            <input type="text" name="digit2" id="digit2" size=2 />
+        </div>
+        <div class="result-module">
+            <input type="button" name="add" value="Add" id="add" />
 
-    </div>
-    <div class="result-module">
-        <input type="button" name="add" value="Add" id="add" />
-
-        <div class="result-area">
-            Result: <div id="answer"></div>
+            <div class="result-area">
+                Result: <div id="answer"></div>
+            </div>
         </div>
     </div>
-    
-    <script
-        src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous">
-    </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+        </script>
     <script src="script.js"></script>
 </body>
+
 </html>

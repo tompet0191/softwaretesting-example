@@ -1,5 +1,6 @@
 $( document ).ready(function() {
     
+    $(".result-area").hide();
     function add(a, b){
         return a + b;        
     }
@@ -10,7 +11,7 @@ $( document ).ready(function() {
         //introduce bug!
         if(isNaN(b))
             b = -1;
-
+        $(".result-area").show();
         $("#answer").text(add(a,b));
     })
 });
