@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.inputFields {
+    width: 30%;
+    margin: 0 auto;
+}
+
+label, input {
+    display: inline-block;
+}
+
+label {
+    width: 30%;
+    text-align: right;
+}
+
+label + input {
+    width: 30%;
+    margin: 0 10% 0 1%;
+}
+
+.result-module{
+    width: 10%;
+    margin: 1% auto;
+}
+.result-area{
+    margin: 5% auto;
+    position: relative;
+    right: 8%;
+}
+#answer{
+    display: inline-block;
+}
